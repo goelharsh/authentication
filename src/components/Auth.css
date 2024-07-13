@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 657px;
+    height: 579px;
+    top: -309px;
+    left: -529px;
+    padding: 40px 60px 40px 60px;
+    gap: 40px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+.contact-us {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.appointment {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.form-container {
+    /* width: 537px; */
+    /* height: 280px; */
+    gap: 20px;
+    opacity: 0px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-email {
+    width: 530px;
+    height: 50px;
+    gap: 20px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+Input,
+Select,
+.input {
+    width: 255px;
+    height: 50px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.btn {
+    width: 232px;
+    height: 58px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #23A6F0;
+    margin: auto;
+    display: block;
+    color: #F9F9F9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    border: none;
+}
+
+.textarea {
+    width: 537px;
+    height: 140px;
+    padding: 16px 446px 100px 26px;
+    gap: 47px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+
+}
+
+.input::placeholder {
+    color: black;
+}
+
+@media screen and (max-width:776px) {
+    .name-email {
+        flex-direction: column;
+    }
+}
