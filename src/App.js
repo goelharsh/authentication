@@ -3,7 +3,6 @@ import './App.css';
 import Auth from './components/Auth';
 
 
-const require = createRequire(import.meta.url);
 
 function App() {
   return (
